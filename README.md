@@ -12,8 +12,7 @@
     <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=FD366E" alt="appwrite" />
   </div>
 
-  <h3 align="center">DOC Connect A HealthCare Management System</h3>
-
+  <h3 align="center">Doc Connect - A Healthcare Management System</h3>
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -22,42 +21,40 @@
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
+5. 🚀 [Deployment](#deployment)
 
 ## <a name="introduction">🤖 Introduction</a>
 
-Doc Connect a healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors, featuring administrative tools for scheduling, confirming, and canceling appointments, along with SMS notifications, all built using Next.js.
-
+Doc Connect is a healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors. It features administrative tools for scheduling, confirming, and canceling appointments, along with SMS notifications, all built using Next.js.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
 - Next.js
 - Appwrite
-- Typescript
+- TypeScript
 - TailwindCSS
 - ShadCN
 - Twilio
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Register as a Patient**: Users can sign up and create a personal profile as a patient.
+👉 **Register as a Patient**: Users can sign up and create a personal profile.
 
-👉 **Book a New Appointment with Doctor**: Patients can schedule appointments with doctors at their convenience and can book multiple appointments.
+👉 **Book Appointments**: Patients can schedule multiple appointments with doctors at their convenience.
 
-👉 **Manage Appointments on Admin Side**: Administrators can efficiently view and handle all scheduled appointments.
+👉 **Admin Management**: Administrators can efficiently view and handle all scheduled appointments.
 
-👉 **Confirm/Schedule Appointment from Admin Side**: Admins can confirm and set appointment times to ensure they are properly scheduled.
+👉 **Appointment Confirmation**: Admins can confirm and set appointment times.
 
-👉 **Cancel Appointment from Admin Side**: Administrators have the ability to cancel any appointment as needed.
+👉 **Cancel Appointments**: Administrators can cancel any appointment as needed.
 
-👉 **Send SMS on Appointment Confirmation**: Patients receive SMS notifications to confirm their appointment details.
+👉 **SMS Notifications**: Patients receive SMS notifications to confirm their appointment details.
 
-👉 **Complete Responsiveness**: The application works seamlessly on all device types and screen sizes.
+👉 **Responsive Design**: The application works seamlessly on all device types and screen sizes.
 
-👉 **File Upload Using Appwrite Storage**: Users can upload and store files securely within the app using Appwrite storage services.
+👉 **File Uploads**: Users can upload and store files securely within the app.
 
-👉 **Manage and Track Application Performance Using Sentry**: The application uses Sentry to monitor and track its performance and detect any errors.
-
-and many more, including code architecture and reusability
+👉 **Performance Monitoring**: The application uses Sentry to monitor and track its performance.
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -112,3 +109,18 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+
+## <a name="deployment">🚀 Deployment</a>
+
+The application is deployed on Vercel. You can access the live version of Doc Connect at the following link:
+
+[Doc Connect Live](https://doc-connect-alaht.vercel.app)
+
+To deploy your own version of the application, follow these steps:
+
+1. Sign up for a Vercel account if you don't have one.
+2. Connect your GitHub repository to Vercel.
+3. Configure the environment variables in the Vercel dashboard.
+4. Deploy your application with a single click!
+
+For more details on deploying with Vercel, check out the [Vercel Documentation](https://vercel.com/docs).
