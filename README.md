@@ -22,7 +22,7 @@
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
 5. 🚀 [Deployment](#deployment)
-
+   
 ## <a name="introduction">🤖 Introduction</a>
 
 Doc Connect is a healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors. It features administrative tools for scheduling, confirming, and canceling appointments, along with SMS notifications, all built using Next.js.
@@ -122,5 +122,7 @@ To deploy your own version of the application, follow these steps:
 2. Connect your GitHub repository to Vercel.
 3. Configure the environment variables in the Vercel dashboard.
 4. Deploy your application with a single click!
+## App Architecture diagram
+![Mermaid Chart](Docconnectapparchitecture.svg)
 
 For more details on deploying with Vercel, check out the [Vercel Documentation](https://vercel.com/docs).
